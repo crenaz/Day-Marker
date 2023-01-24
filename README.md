@@ -9,15 +9,28 @@ Motivation: To not be late to things.
 Screenshots?
 
 Tech Stack: Will use Next.js/Tailwind as a PWA hosted on Vercel. 
+    start with the vercel.com/templates/next.js/nextjs-boilerplate
+    last, add on webpack workbox for pwa
+  
+(you can run several commands:
+ $ pnpm run dev
+    Starts the development server.
+ $ pnpm run build
+    Builds the app for production.
+ $ pnpm start
+    Runs the built app in production mode.)
 
 Design Alternatives:
   + Angular PWA
   + Preact-cli
   + Polymer
   + Svelt PWA
+  + vercel-labs/next-on-the-edge
+
 
 Complications:
   The first attempt was to use React + Babel + Webpack to get a working site. As it is not optimized for 'edge computing', I decided to pivot to a Next.js based example template optimized for Vercel.
+
 
 Experiments?
 
@@ -30,3 +43,4 @@ References to other works?
 
 
 ### (`Rebel Night` and special conditions apply)
+also to tell me about unemployment login

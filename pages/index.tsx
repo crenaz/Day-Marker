@@ -20,46 +20,41 @@ const Home: NextPage = () => {
         </p>
 
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="#"
+          <div
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Today Is: &rarr;</h3>
             <p className="mt-4 text-xl">
               date(day,month,yeara) && time.
             </p>
-          </a>
+          </div>
 
-          <a
-            href="#
-            "
+          <div
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Right now it's: &rarr;</h3>
             <p className="mt-4 text-xl">
               weather conditions
             </p>
-          </a>
+          </div>
 
-          <a
-            href="#"
+          <div
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Count Down Timer: &rarr;</h3>
             <p className="mt-4 text-xl">
               until(time to leave)
             </p>
-          </a>
+          </div>
 
-          <a
-            href="#"
+          <div
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Traffic Status: &rarr;</h3>
             <p className="mt-4 text-xl">
               Route based on traffic data from google maps or waze or nyc dot api
             </p>
-          </a>
+          </div>
         </div>
       </main>
 

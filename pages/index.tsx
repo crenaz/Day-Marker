@@ -21,7 +21,7 @@ const Home: NextPage = () => {
 
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
-            href="https://nextjs.org/docs"
+            href="#"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Today Is: &rarr;</h3>
@@ -31,7 +31,8 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="https://nextjs.org/learn"
+            href="#
+            "
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Right now it's: &rarr;</h3>
@@ -41,7 +42,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="#"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Count Down Timer: &rarr;</h3>
@@ -51,7 +52,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="#"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Traffic Status: &rarr;</h3>

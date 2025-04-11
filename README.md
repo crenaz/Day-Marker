@@ -13,11 +13,11 @@ Tech Stack: Will use Next.js/Tailwind as a PWA hosted on Vercel.
     last, add on webpack workbox for pwa
   
 (you can run several commands:
- $ pnpm run dev
+ $ npm run dev
     Starts the development server.
- $ pnpm run build
+ $ npm run build
     Builds the app for production.
- $ pnpm start
+ $ npm start
     Runs the built app in production mode.)
 
 Design Alternatives:

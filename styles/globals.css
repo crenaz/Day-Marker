@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Optional: Add smooth transitions for all color changes */
+* {
+  @apply transition-colors duration-200;
+}

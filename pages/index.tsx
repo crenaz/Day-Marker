@@ -54,7 +54,9 @@ const Home: NextPage = () => {
   const { isDarkMode, toggleDarkMode } = useDarkMode();
   
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2 transition-colors duration-200 dark:bg-gray-900">
+    <div className="flex min-h-screen flex-col items-center justify-center py-2 transition-all duration-200 
+      bg-gradient-to-br from-white from-30% to-gray-00 
+      dark:from-gray-900 dark:from-30% dark:to-gray-700">
       <Head>
         <title>Day Marker</title>
         <link rel="icon" href="/favicon.ico" />
@@ -82,8 +84,8 @@ const Home: NextPage = () => {
           </code>
         </p>
 
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <div className="mt-6 w-96 rounded-xl border dark:border-gray-700 p-6 text-left hover:text-blue-600 focus:text-blue-600 dark:text-white dark:hover:text-blue-400">
+        <div className="mt-6 flex max-w-5xl flex-wrap items-center justify-around sm:w-full">
+          <div className="mt-6 w-96 rounded-xl border dark:border-gray-700 p-6 text-left hover:text-orange-600 focus:text-orange-600 dark:text-white dark:hover:text-orange-400">
             <h3 className="text-2xl font-bold">Today Is: &rarr;</h3>
             <p className="mt-4 text-xl">
               {date}
@@ -93,21 +95,21 @@ const Home: NextPage = () => {
             </p>
           </div>
 
-          <div className="mt-6 w-96 rounded-xl border dark:border-gray-700 p-6 text-left hover:text-blue-600 focus:text-blue-600 dark:text-white dark:hover:text-blue-400">
+          <div className="mt-6 w-96 rounded-xl border dark:border-gray-700 p-6 text-left hover:text-orange-600 focus:text-orange-600 dark:text-white dark:hover:text-orange-400">
             <h3 className="text-2xl font-bold">Right now it's: &rarr;</h3>
             <p className="mt-4 text-xl">
               weather conditions
             </p>
           </div>
 
-          <div className="mt-6 w-96 rounded-xl border dark:border-gray-700 p-6 text-left hover:text-blue-600 focus:text-blue-600 dark:text-white dark:hover:text-blue-400">
+          <div className="mt-6 w-96 rounded-xl border dark:border-gray-700 p-6 text-left hover:text-orange-600 focus:text-orange-600 dark:text-white dark:hover:text-orange-400">
             <h3 className="text-2xl font-bold">Count Down Timer: &rarr;</h3>
             <p className="mt-4 text-xl">
               until(time to leave)
             </p>
           </div>
 
-          <div className="mt-6 w-96 rounded-xl border dark:border-gray-700 p-6 text-left hover:text-blue-600 focus:text-blue-600 dark:text-white dark:hover:text-blue-400">
+          <div className="mt-6 w-96 rounded-xl border dark:border-gray-700 p-6 text-left hover:text-orange-600 focus:text-orange-600 dark:text-white dark:hover:text-orange-400">
             <h3 className="text-2xl font-bold">Traffic Status: &rarr;</h3>
             <p className="mt-4 text-xl">
               Route based on traffic data from google maps or waze or nyc dot api
@@ -116,7 +118,9 @@ const Home: NextPage = () => {
         </div>
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t dark:border-gray-700 dark:bg-gray-900 dark:text-white">
+      <footer className="flex h-24 w-full items-center justify-center border-t 
+        border-gray-200 bg-white/50 backdrop-blur-sm
+        dark:border-gray-700 dark:bg-gray-900/50 dark:text-white">
         <span className="text-gray-600 dark:text-gray-400">Powered by Next15</span>
         <span className="mx-2 text-gray-600 dark:text-gray-400">||</span>
         <a
